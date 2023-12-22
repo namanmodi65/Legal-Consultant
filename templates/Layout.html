@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Consultant</title>
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.png">
+    {% block header %} {% endblock %}
+    <link rel="stylesheet" href="../static/css/Layout.css">
+</head>
+
+<body>
+
+    <div class='header'>
+        Legal Consultant
+        <ul class='nav-menu'>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/service'>Services</a></li>
+            <li><a href='/about'>About</a></li>
+        </ul>
+    </div>
+
+    {% block body %} {% endblock %}
+
+</body>
+
+</html>

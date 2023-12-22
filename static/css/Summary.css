@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the blog post title */
+  .post-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the content of the blog post */
+  .post-content {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Example styling for paragraphs within the content */
+  .post-content p {
+    margin-bottom: 15px;
+  }

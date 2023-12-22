@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block header%}
+<link rel="stylesheet" href="../static/css/Summary.css">
+{% endblock %}
+
+{% block body %}
+
+    <!-- {{params}} -->
+
+    <div class="blog-post">
+        <h1 class="post-title">Idea Behind Document</h1>
+        <div class="post-content">
+          <p>
+            {{params}}
+          </p>
+          <!-- More content goes here -->
+        </div>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: navy;
+    height: 44px;
+    color: white;
+}
+
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+}
+.nav-menu li{
+    color: white;
+    padding: 0 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
